@@ -8,10 +8,9 @@ Es un server Express, no mucho más.
 _Nota:_ está hecho con features de ES6 (tendría más si la gente de Node.js moviera el culo para implementar módulos), así que hay que ejecutarlo con el tag `--harmony`. La versión original de [@vdel26](https://github.com/vdel26) sí que usaba Babel para transpilar a ES5, pero quería hacer esto más ligero todavía.
 
 ## Colaboraciones
-TODA colaboración es bienvenida. Por ahora es un API con las cartas. Se viene:
-- Un front web para poder imprimir las cartas (básicamente una vista html con una hoja de estilos de impresión).
-- Faltan traducciones.
-- Un app para jugar (near future).
+TODA colaboración es bienvenida. Por ahora es un API con las cartas y una vista para imprimirlas. Se viene:
+- Un API para jugar partidas.
+- Un app para jugar (será otro repo, I guess).
 
 ## API
 - GET _/api/question_: devuelve una carta negra.
@@ -27,7 +26,7 @@ npm install
 npm start
 ```
 
-Si buscas de acelerar el workflow, necesitarás [Gulp](http://gulpjs.com/)
+Si vas a colaborar, te recomiendo que para acelerar el workflow instales [Gulp](http://gulpjs.com/)
 
 ```
 npm install --global gulp
@@ -35,4 +34,6 @@ npm install --global gulp
 
 Puedes ejecutar el server con `gulp serve` para recargarlo cuando hayan cambios en lib o tener Livereload haciendo `gulp front` en otra terminal para solo recargar el browser automaticamente cuando hayan cambios en vistas o recursos estáticos.
 
-Y listo. Ya el API estará escuchando en `http://localhost:3000` or en el puerto que indique la variable `PORT`.
+Y listo.
+
+Fuck you.
