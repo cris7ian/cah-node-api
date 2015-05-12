@@ -731,7 +731,7 @@ const questions = [
   "Mi tarea se la comió _____.",
   "En 1000 años el papel será historia, usaremos _____ como moneda.",
   "En prisón puedes cambiar 200 cigarros por _____.",
-  "Al final Michael Jack solo podía pensar en _____.",
+  "Al final Simón Díaz solo podía pensar en _____.",
   "En Roma dicen que en el Vaticano tienen un cuarto solo para _____.",
   "En el Museo de los Niños abrieron una exposición para _____.",
   "En su nuevo album, Chino y Nacho cantan sobre _____.",
