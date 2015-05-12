@@ -2,12 +2,26 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #232323;
   -webkit-font-smoothing: antialiased; }
-  body h1 {
-    font-size: 5rem;
-    line-height: 3rem; }
   body .clear {
     clear: both;
     height: 10px; }
+  body .jumbotron {
+    background: #272727;
+    color: white; }
+  body .licencia {
+    margin-bottom: 0px; }
+    body .licencia img {
+      margin-bottom: 20px; }
+    body .licencia p {
+      font-size: 16px; }
+    body .licencia a {
+      font-weight: bold;
+      color: white; }
+  body .cc {
+    font-size: 16px;
+    font-weight: bold; }
+  body .breathe {
+    margin-top: 40px; }
   body .cards {
     display: none; }
   body .white-cards, body .black-cards {
@@ -30,8 +44,11 @@ body {
 #generate {
   margin-bottom: 20px; }
 
-.api table {
-  width: 100%; }
+.api {
+  overflow: auto; }
+
+table.api {
+  width: 10%; }
 
 @page {
   size: A4;

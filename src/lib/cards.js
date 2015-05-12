@@ -828,6 +828,8 @@ const questions = [
   "_____. ¡Es una trampa!",
   "_____. Así quiero morir.",
   "_____: Sabroso hasta la última gota.",
+  "_____ en la pasarela de la UNEFA.",
+  "Si la virgen fuera andina y San José de los Llanos, el niño Jesús sería______.",
   "_____? Bájate el app."
 ];
 

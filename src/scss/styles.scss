@@ -3,14 +3,38 @@ body {
   color: #232323;
   -webkit-font-smoothing: antialiased;
 
-  h1 {
-    font-size: 5rem;
-    line-height: 3rem;
-  }
-
   .clear{
     clear: both;
     height: 10px;
+  }
+
+  .jumbotron{
+    background: #272727;
+    color: white;
+
+  }
+
+  .licencia {
+    margin-bottom: 0px;
+    img {
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+    }
+    a {
+      font-weight: bold;
+      color: white;
+    }
+  }
+
+  .cc {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .breathe {
+    margin-top: 40px;
   }
 
  .cards {
@@ -47,11 +71,12 @@ body {
 }
 
 .api{
-  table {
-    width: 100%;
-  }
+  overflow: auto;
 }
 
+table.api{
+  width: 10%;
+}
 @page {
   size: A4;
   margin: 3mm;

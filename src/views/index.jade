@@ -1,11 +1,12 @@
 extends layout
 
 block content
+  .jumbotron
+    .container
+      h1 Caracas <br>Against<br> Humanity
+      p Imprime tus cartas #[a(href='/print', target='_blank', class='btn btn-lg btn-warning cursor') aquí »]   
   .container
-    h1 Caracas Against Humanity
-    p Bienvenido a Caracas Against Humanity.
-    h2 Imprime tus cartas #[a(href='/print', target='_blank') aquí].    
-    .pick.col-md-6
+    .api.col-md-6
       h2 Ejemplo
       input(type="button", class='btn btn-danger' value='generar nueva combinación', id='generate')
       .example
@@ -14,7 +15,8 @@ block content
         .white.card
           p#w
     .api.col-md-6
-      h2 Acá el API:
+      h1 API
+      h3 Puedes acceder el Caracas Against Humanity API.
       table
         tr
           td GET
@@ -32,3 +34,11 @@ block content
           td GET 
           td #[i /api/answers] 
           td devuelve todas las cartas blancas.
+  .jumbotron.breathe.licencia
+    .container
+      img(src='img/cc.png')
+      p.
+        Caracas Against Humanity está basado en Cards Against Humanity y se distribuye bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0</a>. “Cards Against Humanity” es una marca de  Cards Against Humanity LLC.
+      p. 
+        Caracas Against Humanity es propiedad de #[a(href='http://www.cristiancaroli.com' target='_blank') Cristian E. Caroli]. #[em Valar Morghulis].
+      

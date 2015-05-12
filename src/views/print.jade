@@ -2,8 +2,14 @@ extends layout
 
 block content
   script(type='text/javascript', src='js/print.js')
-  .no-print.
-    Presiona <b>#[span#key ⌘] + p</b> e imprime tus cartas. O haz #[a(href='javascript:window.print()') click].
+  .no-print
+    .container
+      h1.
+        Presiona <b>#[span#key ⌘]+p</b> e imprime tus cartas. 
+      h1.
+        O haz #[a(href='javascript:window.print()') click].
+      p.
+        (Recuerda activar los gráficos de fondo)
   .cards
     .white-cards
       each card, index in whiteCards
