@@ -658,7 +658,7 @@ const answers = [
   "Darle un cuchillo a un mono.",
   "Par de coñazos.",
   "Atropellar a alguien.",
-  "Cierre Maágico",
+  "Cierre Mágico",
   "Viagra.",
   "Cuadrarse un culo en una guarimba.",
   "Vigilantes.",
