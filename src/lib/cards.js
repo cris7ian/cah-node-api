@@ -699,8 +699,6 @@ const answers = [
   "La camionetica de Pink Floyd."
   "El Ávila en llamas."
   "Limpiador de pocetas MÁS."
-  
-  
 ];
 
 
