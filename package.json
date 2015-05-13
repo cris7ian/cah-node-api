@@ -15,7 +15,8 @@
   "dependencies": {
     "express": "^4.12.3",
     "jade": "^1.9.2",
-    "morgan": "^1.5.3"
+    "morgan": "^1.5.3",
+    "serve-favicon": "^2.2.0"
   },
   "devDependencies": {
     "browser-sync": "^2.7.1",
