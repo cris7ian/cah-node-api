@@ -4,12 +4,15 @@ var Api = require('./lib/api');
 var Cards = require('./lib/cards');
 var express = require('express');
 var logger = require('morgan');
+var favicon = require('serve-favicon');
 var app = express();
+
 
 app.set('views', path.join(__dirname, 'views'));
 app.use(logger('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'jade');
+app.use(favicon(path.join(__dirname, 'public/favicon.ico')));
 
 app.use('/api', Api);
 
