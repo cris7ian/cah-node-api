@@ -168,7 +168,7 @@ const answers = [
   "Una linterna.",
   "Muertos del 11 de abril.",
   "Guacucos.",
-  "Viejas Cafetalerasß.",
+  "Viejas Cafetaleras.",
   "Una visita a la morgue de Bello Monte.",
   "Abortos con un gancho de ropa.",
   "Paloma.",
@@ -693,6 +693,14 @@ const answers = [
   "Iron Man"
   "Metaleros de Chacaíto."
   "Hippies de Bellas Artes."
+  "Tus panas echándote paja."
+  "Brazo e' niño."
+  "El metro en hora pico."
+  "La camionetica de Pink Floyd."
+  "El Ávila en llamas."
+  "Limpiador de pocetas MÁS."
+  
+  
 ];
 
 
