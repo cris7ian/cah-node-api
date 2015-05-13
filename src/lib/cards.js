@@ -1,5 +1,7 @@
 const answers = [
   "72 vírgenes.",
+  "VICTORIA POPULAR",
+  "Andar de sapo tetón",
   "8 onzas de heroína colombiana.",
   "Un barril de 50 litros de lubricante.",
   "Un pozo lleno de cunaguaros.",
