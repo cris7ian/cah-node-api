@@ -64,6 +64,9 @@ table.api {
     height: 297mm; }
     html .white-cards, html .black-cards, html .break, html .clear, body .white-cards, body .black-cards, body .break, body .clear {
       page-break-after: always; }
+    html .black, body .black {
+      background-color: black;
+      color: white; }
     html .card, body .card {
       width: 6.32cm;
       height: 8.6cm;

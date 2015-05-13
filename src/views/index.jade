@@ -1,14 +1,14 @@
 extends layout
-
 block content
+  link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css', rel='stylesheet')
   .jumbotron
     .container
-      h1 Caracas <br>Against<br> Humanity
-      p Imprime tus cartas #[a(href='/print', target='_blank', class='btn btn-lg btn-warning cursor') aquí »]   
+      h1 Caracas #[br]Against#[br] Humanity
+      p Consigue tus cartas #[a(href='/caracas-against-humanity.pdf', target='_blank', class='btn btn-lg btn-warning cursor') aquí »]   
   .container
     .api.col-md-6
       h2 Ejemplo
-      input(type="button", class='btn btn-danger' value='generar nueva combinación', id='generate')
+      input(type='button', class='btn btn-danger' value='generar nueva combinación', id='generate')
       .example
         .black.card
           p#b
@@ -16,7 +16,7 @@ block content
           p#w
     .api.col-md-6
       h1 API
-      h3 Puedes acceder el Caracas Against Humanity API.
+      h3 Puedes acceder al Caracas Against Humanity API.
       table
         tr
           td GET
@@ -34,11 +34,13 @@ block content
           td GET 
           td #[i /api/answers] 
           td devuelve todas las cartas blancas.
+      h1 Instrucciones
+      p Si no sabes jugar, puedes revisar las instrucciones #[a(target='blank' href='http://s3.amazonaws.com/cah/CAH_Rules.pdf') aquí].
   .jumbotron.breathe.licencia
     .container
       img(src='img/cc.png')
       p.
-        Caracas Against Humanity está basado en Cards Against Humanity y se distribuye bajo licencia <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">Creative Commons BY-NC-SA 2.0</a>. “Cards Against Humanity” es una marca de  Cards Against Humanity LLC.
+        Caracas Against Humanity está basado en Cards Against Humanity y se distribuye bajo licencia #[a(href='https://creativecommons.org/licenses/by-nc-sa/2.0/') Creative Commons BY-NC-SA 2.0]. “Cards Against Humanity” es una marca de  Cards Against Humanity LLC.
       p. 
         Caracas Against Humanity no es propiedad de #[a(href='http://www.cristiancaroli.com' target='_blank') Cristian E. Caroli], es propiedad de quien #[a(href='https://github.com/cris7ian/caracas-against-humanity' target='_blank') quiera colaborar]. #[em Valar Morghulis].
       

@@ -5,21 +5,23 @@ block content
   .no-print
     .container
       h1.
-        Presiona <b>#[span#key ⌘]+p</b> e imprime tus cartas. 
+        Presiona #[span#key ⌘]+p e imprime tus cartas. 
       h1.
         O haz #[a(href='javascript:window.print()') click].
       p.
         (Recuerda activar los gráficos de fondo)
   .cards
-    .white-cards
-      each card, index in whiteCards
-        .white.card
-          p= card
-        if ((index+1) % 9 == 0)
-          .clear
     .black-cards
       each card, index in blackCards
         .black.card
           p=card
         if ((index+1) % 9 == 0)
           .clear
+            
+    .white-cards
+      each card, index in whiteCards
+        .white.card
+          p= card
+        if ((index+1) % 9 == 0)
+          .clear
+    
