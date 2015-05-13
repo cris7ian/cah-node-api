@@ -5,11 +5,12 @@ block content
     .container
       h1 Caracas #[br]Against#[br] Humanity
       p La versión venezolana del popular juego #[a(href='http://www.cardsagainsthumanity.com' target='_blank') Cards Against Humanity].
-      p Consigue tus cartas #[a(href='/caracas-against-humanity.pdf', target='_blank', class='btn btn-lg btn-warning cursor') aquí »]   
+      p Descarga las cartas e imprímelas si tienes real, pelabola.
+      #[a(href='/caracas-against-humanity.pdf', target='_blank', class='btn btn-lg btn-warning cursor') Descargar »] 
   .container
     .api.col-md-6
-      h2 Ejemplo
-      input(type='button', class='btn btn-danger' value='generar nueva combinación', id='generate')
+      h2 Ejemplos
+      input(type='button', class='btn btn-danger' value='Generar nueva combinación', id='generate')
       .example
         .black.card
           p#b
@@ -17,7 +18,7 @@ block content
           p#w
     .api.col-md-6
       h1 API
-      h3 Puedes acceder al Caracas Against Humanity API.
+      h3 Puedes acceder a un Caracas Against Humanity API si eres un nerd.
       table
         tr
           td GET
@@ -26,7 +27,7 @@ block content
         tr
           td GET 
           td #[i /api/questions] 
-          td devuelve todas las cartas negras
+          td devuelve todas las cartas negras.
         tr
           td GET 
           td #[i /api/answer] 
@@ -34,14 +35,14 @@ block content
         tr
           td GET 
           td #[i /api/answers] 
-          td devuelve todas las cartas blancas.
+          td devuelve todas las cartas blancas (son un coñazo de cartas).
       h1 Instrucciones
-      p Si no sabes jugar, puedes revisar #[a(target='blank' href='http://s3.amazonaws.com/cah/CAH_Rules.pdf') las instrucciones].
+      p Si no sabes jugar (AKA eres pobre y nunca habías oído de este juego), puedes revisar #[a(target='blank' href='http://s3.amazonaws.com/cah/CAH_Rules.pdf') las instrucciones].
   .jumbotron.breathe.licencia
     .container
       img(src='img/cc.png')
       p.
         Caracas Against Humanity está basado en Cards Against Humanity y se distribuye bajo licencia #[a(href='https://creativecommons.org/licenses/by-nc-sa/2.0/'  target='_blank') Creative Commons BY-NC-SA 2.0]. “Cards Against Humanity” es una marca de  Cards Against Humanity LLC.
       p. 
-        Caracas Against Humanity no es propiedad de #[a(href='http://www.cristiancaroli.com' target='_blank') Cristian E. Caroli], es propiedad de quien #[a(href='https://github.com/cris7ian/caracas-against-humanity' target='_blank') quiera colaborar]. #[em Valar Morghulis].
+        Caracas Against Humanity no es propiedad de #[a(href='http://www.cristiancaroli.com' target='_blank') Cristian E. Caroli], es propiedad de quien #[a(href='https://github.com/cris7ian/caracas-against-humanity' target='_blank') quiera colaborar]. #[em Marico el que lo lea].
       
