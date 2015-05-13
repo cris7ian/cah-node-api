@@ -6,8 +6,6 @@ var express = require('express');
 var logger = require('morgan');
 var app = express();
 
-// view engine setup
-console.log('starting');
 app.set('views', path.join(__dirname, 'views'));
 app.use(logger('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -29,8 +27,7 @@ app.use((req, res, next) => {
   next(err);
 });
 
-// error handlers
-
+// ERROR HANDLERS
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
