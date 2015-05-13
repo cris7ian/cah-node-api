@@ -168,7 +168,7 @@ const answers = [
   "Una linterna.",
   "Muertos del 11 de abril.",
   "Guacucos.",
-  "Viejas Cafetalerasß.",
+  "Viejas Cafetaleras.",
   "Una visita a la morgue de Bello Monte.",
   "Abortos con un gancho de ropa.",
   "Paloma.",
@@ -365,18 +365,18 @@ const answers = [
   "Loki, el hermano de Thor.",
   "Hablapaja.",
   "Fantasías chavistas.",
-  "Quemar las arepas..",
+  "Quemar las arepas.",
   "Ser una paloma.",
   "Conocer a un pana.",
   "Poner cara de culo.",
-  "Besar un güego.",
+  "Besar un güebo.",
   "El Sambil.",
   "Carne de hombre.",
   "Pajearte.",
   "Tiempo para uno.",
   "Yo.",
   "MechaHitler.",
-  "Cobertura mediatica.",
+  "Cobertura mediática.",
   "Música en vivo.",
   "Hombres.",
   "La Regla.",
@@ -409,7 +409,7 @@ const answers = [
   "Nazis.",
   "Necrofilia.",
   "Neil Patrick Harris.",
-  "Musica del centro piramidal del sambil.",
+  "Musica del centro piramidal del Sambil.",
   "Voz Veis.",
   "Nicolas Cage.",
   "Pezones que cortan.",
@@ -422,7 +422,7 @@ const answers = [
   "Esclavitud moderna.",
   "Bailar merengue en una boda.",
   "Obesidad.",
-  "Inamovilidad laboral..",
+  "Inamovilidad laboral.",
   "Olor a viejo.",
   "Música de fondo.",
   "Una anillo para gobernarlos a todos.",
@@ -438,7 +438,7 @@ const answers = [
   "Pandas tirando",
   "Pantaletas.",
   "Separar el Mar Rojo.",
-  "Aguafiestas..",
+  "Aguafiestas.",
   "Trans.",
   "Mear una piedra de riñón.",
   "Post-its pasivo-agresivos.",
@@ -451,7 +451,7 @@ const answers = [
   "Bukkake.",
   "Polichacao.",
   "Cagar pa' lante y pa' tras. Por siempre.",
-  "Decisiones, cada día. Alguien pierde, alguien ganaß.",
+  "Decisiones, cada día. Alguien pierde, alguien gana.",
   "Gente pobre.",
   "Chistes ofensivos del Holocausto.",
   "Pornstars.",
@@ -561,8 +561,8 @@ const answers = [
   "Arrancarle las bolas y los ojos a alguien y luego ponerle las bolas en los ojos.",
   "Dispararle al Santa de Banesco.",
   "Quitarte la franela.",
-  "Tetas operadas..",
-  "Enseñarle a un robot lo que se sienta ser amado.",
+  "Tetas operadas.",
+  "Enseñarle a un robot lo que se siente ser amado.",
   "Team-building.",
   "Embarazo juvenil.",
   "Porno de barrio.",
@@ -600,7 +600,7 @@ const answers = [
   "Un anillo de bodas.",
   "La vía más difícil.",
   "Pedir un taxi.",
-  "Meladed llegando tarde.",
+  "Melamed llegando tarde.",
   "World of Warcraft.",
   "Un pajazo de tu abuelo.",
   "La pálida.",
@@ -636,7 +636,8 @@ const answers = [
   "La destrucción sistemática de la calidad de vida del venezolano.",
   "La Trocha.",
   "Los terroristas.",
-  "Porno/",
+  "Porno.",
+  "Pornotetica de Cinemax."
   "Las manos callosas de los niños que cosen tu ropa.",
   "Las minorías.",
   "El significado de la vida.",
@@ -645,7 +646,7 @@ const answers = [
   "Así somos los blancos.",
   "Meterle mano.",
   "Tres meses sin tirar.",
-  "Pezones pequeños..",
+  "Pezones pequeños.",
   "Winston Vallenilla.",
   "Lengua.",
   "El papo de Lilian Tintori.",
@@ -658,7 +659,7 @@ const answers = [
   "Darle un cuchillo a un mono.",
   "Par de coñazos.",
   "Atropellar a alguien.",
-  "Cierre Maágico",
+  "Cierre Mágico",
   "Viagra.",
   "Cuadrarse un culo en una guarimba.",
   "Vigilantes.",
@@ -690,6 +691,16 @@ const answers = [
   "ESTE CHAVEZ DE MIERDA",
   "Hongo vaginal.",
   "Iron Man"
+  "Metaleros de Chacaíto."
+  "Hippies de Bellas Artes."
+  "Tus panas echándote paja."
+  "Brazo e' niño."
+  "El metro en hora pico."
+  "La camionetica de Pink Floyd."
+  "El Ávila en llamas."
+  "Limpiador de pocetas MÁS."
+  "Un cursito de Open English."
+  "Entrepreneurs del IESA."
 ];
 
 
