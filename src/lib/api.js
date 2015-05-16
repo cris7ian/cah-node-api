@@ -20,4 +20,12 @@ router.get('/questions', (req, res) => res.json(questions));
 router.get('/answer', (req, res) => res.json(answer()));
 router.get('/answers', (req, res) => res.json(answers));
 
+
+// POST game/new (with a TTL and a player)
+// GET game/{id}
+// POST game/{id}/player (returns your id)
+// DELETE game/{id}/player (kick him out)
+// POST /player/{id}/black_card (gives a card to the winner)
+// PUT /game/{id}/table (put a player's card in the table)
+
 module.exports = router;
