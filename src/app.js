@@ -7,6 +7,11 @@ var logger = require('morgan');
 var favicon = require('serve-favicon');
 var app = express();
 
+var mongoose = require('mongoose');
+const mongoUri = process.env.MONGO_URI || 'mongodb://localhost';
+console.log('Mondodb connected to '+mongoUri);
+mongoose.connect(mongoUri);
+
 
 app.set('views', path.join(__dirname, 'views'));
 app.use(logger('dev'));

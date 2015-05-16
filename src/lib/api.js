@@ -2,8 +2,13 @@ var express = require('express');
 var router = express.Router();
 var Cards = require('./cards');
 
-var questions = Cards.questions;
-var answers = Cards.answers;
+//Models
+var Card = require('./models/card');
+var Player = require('./models/player');
+var Game = require('./models/game');
+
+const questions = Cards.questions;
+const answers = Cards.answers;
 
 const nquestions = questions.length;
 const nanswers = answers.length;
