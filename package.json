@@ -27,6 +27,7 @@
     "gulp-ruby-sass": "^1.0.5",
     "gulp-sass": "^2.0.0",
     "mocha": "^2.2.4",
+    "prettyjson": "^1.1.1",
     "request": "^2.55.0",
     "should": "^6.0.1"
   }
