@@ -355,7 +355,7 @@ const answers = [
   "Lactar.",
   "Lady Gaga.",
   "La bola perdida de Lance Armstrong.",
-  "Minas antipersonakes.",
+  "Minas antipersonales.",
   "Empollar un huevo.",
   "Dejar un mensaje en la contestadora.",
   "Lepra.",
@@ -702,6 +702,8 @@ const answers = [
   "El Ávila en llamas.",
   "Limpiador de pocetas MÁS.",
   "Un cursito de Open English.",
+  "Entrepreneurs del IESA.",
+  "Un cursito de Open English.",
   "Entrepreneurs del IESA."
 ];
 
@@ -732,7 +734,7 @@ const questions = [
   "Cada navidad mi tío se rasca y me cuenta sobre _____.",
   "Al suelo todo el mundo. Acá no venimos a quebrar a nadie. Venimos a por _____.",
   "Al fin. Un servicio que entrega _____ a tu puerta.",
-  "¿Problemas en el _____? ¡Intenta _____!",
+  "¿Problemas en el Internet? ¡Intenta _____!",
   "El que controla _____ controla el mundo.",
   "Mira, flaca, vamos a mi casa y te muestro mi _____.",
   "Como mantengo mi soltería.",
@@ -767,7 +769,7 @@ const questions = [
   "El dinero no compra el amor, pero compra _____.",
   "Venezuela, tierra de _____.",
   "A la profesora la botaron por traer _____ al salón.",
-  "Mi vida es puro _____ y _____.",
+  "Mi vida es puro anis y _____.",
   "Mi mamá me armó un peo cuando me vio metido en _____.com.",
   "J.K. Rowling presenta: Harry Potter y la Cámara de _____.",
   "A continuación en Meridiano TV: La Serie Mundial de _____.",
